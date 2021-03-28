@@ -1,0 +1,2 @@
+# ChieriBot_OSS_setulist
+自动更新OSS图片网址列表，供随机图片api调用
