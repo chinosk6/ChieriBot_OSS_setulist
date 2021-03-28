@@ -8,7 +8,7 @@ def is_write(name):
     else:
         return False
 
-def readoss(abucket,apath,公网):
+def readoss(abucket,apath,公网): #我就是喜欢中文变量(逃
     '''
     Bucket名,路径,是否使用公网地址
     '''
