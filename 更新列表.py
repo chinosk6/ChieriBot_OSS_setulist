@@ -1,6 +1,6 @@
 import alioss
 
-aqwq=alioss.readoss('myname','img/path1',False) #false内网 true外网
+aqwq=alioss.readoss('myname','img/path1',False) #false内网 true公网
 
 aqwq=aqwq + "\n" + alioss.readoss('myname','img/path2',False)
 
