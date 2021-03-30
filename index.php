@@ -1,6 +1,6 @@
 <?php
 
-$filename = ".txt";
+$filename = "urls.txt";
 if(!file_exists($filename)){
 	die('文件不存在');
 }
