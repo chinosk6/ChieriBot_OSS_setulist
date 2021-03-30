@@ -26,12 +26,12 @@ def readoss(abucket,apath,公网): #中文变量好啊
             print('directory: ' + obj.key)
         else:                # 判断obj为文件。
 
-            if 公网==True:
+            if 公网 == True:
                 geturl='https://'+abucket+ '.oss-cn-shanghai.aliyuncs.com/'+obj.key #公网访问
             else:
                 geturl='https://'+abucket+'.oss-cn-shanghai-internal.aliyuncs.com/'+obj.key  #内网访问
 
-            if is_write(geturl[-3:])==True or is_write(geturl[-4:])==True:
+            if is_write(geturl[-3:]) == True or is_write(geturl[-4:])==True:
                 geturl=geturl+'\n'
                 readurl=readurl + geturl
 
